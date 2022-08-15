@@ -1,6 +1,6 @@
 A simple tool for bypassing easy root detection mechanisms. If the app still flags your device as rooted, then Frida FTW.
 
-**Usage : **
+Usage : 
 
 docker build -t bypassrootdetection .
  
