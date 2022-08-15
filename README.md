@@ -6,4 +6,4 @@ Usage :
  
 ``` docker run -it   -v full_path_of_your_apk:/app/input.apk -v output_folder:/app/output/  bypassrootdetection```
 
-You should find an apk named generated.aok in the output folder you specified
+You should find an apk named **generated.apk** in the output folder you specified
