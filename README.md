@@ -14,7 +14,7 @@ A simple tool for bypassing easy root detection mechanisms. If the app still fla
 
 ```rbypass.py -i full_path_of_your_apk ```
 
-if u didn't specify a value for ```-o``` , a folder named ```output``` will be created or used (if it alerady exists).
+if u didn't specify a value for ```-o``` , a folder named ```output``` will be created in the current directory or used (if it alerady exists).
 
 You should find an apk named **generated.apk** in the output folder 
 
