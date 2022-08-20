@@ -24,7 +24,7 @@ Usage
 
 if u didn't specify a value for ```-o``` , a folder named ```output``` will be created in the current directory or used (if it alerady exists).
 
-You should find an apk named **generated.apk** in the output folder you specified
+You should find an apk named **generated.apk** in the output folder.
 
 Usage via Docker
 ------------------
