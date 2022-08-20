@@ -1,14 +1,19 @@
+rBypass Utility Tool
+=====================
+
 A simple tool for bypassing easy root detection mechanisms. If the app still flags your device as rooted, then Frida FTW.
 
-> Requirements: 
+Requirements
+--------------------------
 
-- Python >= 3.9 and pip installed
-- Docker installed
-- The following python packages :
+1. Python >= 3.9 and pip installed
+2. Docker installed
+3. The following python packages :
     - argparse : pip install argparse
     - docker   : pip install docker==2.0.0
 
-> Usage : 
+Usage
+------
 
 ```rbypass.py -i full_path_of_your_apk -o output_folder```
 
@@ -17,5 +22,8 @@ A simple tool for bypassing easy root detection mechanisms. If the app still fla
 if u didn't specify a value for ```-o``` , a folder named ```output``` will be created in the current directory or used (if it alerady exists).
 
 You should find an apk named **generated.apk** in the output folder 
+
+Supported platforms
+---------------------
 
 This tool was only tested on Linux for the moment.
