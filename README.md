@@ -1,4 +1,4 @@
-rBypass Utility
+rootBypass Utility
 =====================
 
 A simple tool for bypassing easy root detection mechanisms. The tool will patch the target Apk and try to disable root detection checks. If the app still flags your device as rooted, then Frida FTW.
@@ -13,7 +13,7 @@ Requirements
     - argparse : pip install argparse
     - docker   : pip install docker==2.0.0
 
-```$ pip install -r requirements.txt```
+    ```$ pip install -r requirements.txt```
 
 Usage
 ------
@@ -29,13 +29,13 @@ You should find an apk named **generated.apk** in the output folder you specifie
 Usage via Docker
 ------------------
 
-if you don't want to run the docker image in the cloud or use python for some reason, you can always build and run the Docker image locally :
+if you don't want to run the docker image in the cloud or use python for some reason, you can always build and run the Docker image locally inside the directory ```docker_files``` :
 
-```cd docker```
+```cd docker_files```
 
-```docker build -t  aymanrb/root_detection_bypass .```
+```docker build -t root_detection_bypass .```
  
-``` docker run -it   -v full_path_of_your_apk:/home/input.apk -v output_folder:/app/output/   aymanrb/root_detection_bypass```
+``` docker run -v full_path_of_your_apk:/home/input.apk -v output_folder:/app/output/ root_detection_bypass```
 
 
 Supported platforms
