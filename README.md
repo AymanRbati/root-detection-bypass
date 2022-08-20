@@ -20,9 +20,9 @@ Requirements
 Usage
 ------
 
-```rbypass.py -i full_path_of_your_apk -o output_folder```
+```root_bypass.py -i full_path_of_your_apk -o output_folder```
 
-```rbypass.py -i full_path_of_your_apk ```
+```root_bypass.py -i full_path_of_your_apk ```
 
 if u didn't specify a value for ```-o``` , a folder named ```output``` will be created in the current directory or used (if it alerady exists).
 
