@@ -13,6 +13,8 @@ Requirements
     - argparse : pip install argparse
     - docker   : pip install docker==2.0.0
 
+```$ pip install -r requirements.txt```
+
 Usage
 ------
 
