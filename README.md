@@ -1,9 +1,21 @@
 A simple tool for bypassing easy root detection mechanisms. If the app still flags your device as rooted, then Frida FTW.
 
-Usage : 
+> Requirements: 
 
-```docker build -t bypassrootdetection .```
- 
-``` docker run -it   -v full_path_of_your_apk:/app/input.apk -v output_folder:/app/output/  bypassrootdetection```
+- Python >= 3.9 and pip installed
+- Docker installed
+- The following python packages :
+    - argparse : pip install argparse
+    - docker   : pip install docker==2.0.0
 
-You should find an apk named **generated.apk** in the output folder you specified
+> Usage : 
+
+```rbypass.py -i full_path_of_your_apk -o output_folder```
+
+```rbypass.py -i full_path_of_your_apk ```
+
+if u didn't specify a value for ```-o``` , a folder named ```output``` will be created or used (if it alerady exists).
+
+You should find an apk named **generated.apk** in the output folder 
+
+This tool was only tested on Linux for the moment.
