@@ -1,4 +1,4 @@
-rootBypass Utility
+RootDetectionBypass
 =====================
 
 A simple tool for bypassing easy root detection mechanisms. The tool will patch the target Apk and try to disable root detection checks. If the app still flags your device as rooted, then Frida FTW.
