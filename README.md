@@ -27,7 +27,7 @@ pip install -r requirements.txt
 # Build the image
 docker build -t root_detection_bypass .
 # Run 
-docker run -v full_path_to_your_apk:/home/input.apk -v full_path_of_output_folder:/app/output/ root_detection_bypass:latest
+docker run -v full_path_to_your_apk:/home/input.apk -v full_path_of_output_folder:/app/output/ aymanrb/root_detection_bypass
 
 # Or run the image from Docker Hub
 docker run -v full_path_to_your_apk:/home/input.apk -v full_path_of_output_folder:/app/output/ aymanrb/root_detection_bypass
