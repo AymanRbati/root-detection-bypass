@@ -17,7 +17,7 @@ The `root_bypass.py` script is just a CLI with a docker image with the necessary
 
 ```sh
 pip install -r requirements.txt
-./root_bypass.py -i full_path_of_your_apk -o output_folder # Will generate an APK with the name generated.apk in output_folder
+./root_bypass.py -i full_path_of_your_apk -o full_path_of_output_folder # Will generate an APK with the name generated.apk in output_folder
 ./root_bypass.py -i full_path_of_your_apk # Will create a folder named output with the generated APK in it
 ```
 
@@ -27,10 +27,10 @@ pip install -r requirements.txt
 # Build the image
 docker build -t root_detection_bypass .
 # Run 
-docker run -v full_path_to_your_apk:/home/input.apk -v output_folder:/app/output/ root_detection_bypass:latest
+docker run -v full_path_to_your_apk:/home/input.apk -v full_path_of_output_folder:/app/output/ root_detection_bypass:latest
 
 # Or run the image from Docker Hub
-docker run -v full_path_to_your_apk:/home/input.apk -v output_folder:/app/output/ aymanrb/root_detection_bypass
+docker run -v full_path_to_your_apk:/home/input.apk -v full_path_of_output_folder:/app/output/ aymanrb/root_detection_bypass
 ```
 
 ## Supported platforms
