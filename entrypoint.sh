@@ -30,4 +30,4 @@ apktool b -f -d input -o new.apk
 wget https://github.com/patrickfav/uber-apk-signer/releases/download/v1.3.0/uber-apk-signer-1.3.0.jar
 java -jar uber-apk-signer-1.3.0.jar --apks new.apk 
 mv new-aligned-debugSigned.apk output/generated.apk
-/bin/bash
+
