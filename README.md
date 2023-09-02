@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### Docker
 
-```sh
+```bash
 # Build the image
 docker build -t root_detection_bypass .
 # Run 
