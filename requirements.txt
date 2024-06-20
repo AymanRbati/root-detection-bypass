@@ -1,9 +1,9 @@
 certifi==2024.6.2
-charset-normalizer==3.3.2
+charset-normalizer
 docker==7.1.0
 docker-pycreds==0.4.0
 idna==3.7
-requests==2.2.29
+requests==2.26
 six==1.16.0
-urllib3==2.2.2
+urllib3
 websocket-client==1.8.0
